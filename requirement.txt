@@ -1,9 +1,0 @@
-streamlit == 1.21.0
-numpy
-pandas
-matplotlib == 3.7.1
-yfinance
-keras
-pandas_datareader
-datetime
-sklearn
