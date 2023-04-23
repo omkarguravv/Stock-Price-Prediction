@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pandas_datareader as data
 import yfinance as yf
-from keras.models import load_mode
+from keras.models import load_model
 import streamlit as st
 from datetime import date
 import datetime
