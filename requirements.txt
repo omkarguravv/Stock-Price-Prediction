@@ -11,4 +11,8 @@ pandas_datareader==0.10.0
 yfinance==0.1.74
 pandas_ta==0.3.14b0
 tensorflow==2.9.1
-
+streamlit
+yfinance
+tensorflow==2.11.0
+mpld3
+ta==0.10.2
