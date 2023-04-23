@@ -11,6 +11,10 @@ from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 
+#title of the app
+st.set_page_config(page_title='Stock Price Prediction', page_icon = 'StockPrice2.jpg', initial_sidebar_state = 'auto')
+
+st.header('Stock Price Prediction App using LSTM model')
 #See the yahoo finance ticker for your stock symbol
 stock_symbol = 'mrf.ns'
 user_input = st.text_input("Enter the stock ticker symbol", 'GOOG')
@@ -224,4 +228,9 @@ if st.button('Show Data'):
 
 else:
     st.write("Please enter a valid stock ticker")
+
+
+
+
+
 
